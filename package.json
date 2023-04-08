@@ -116,7 +116,7 @@
     "node": ">=16"
   },
   "peerDependencies": {
-    "@remix-run/node": "1.15.0"
+    "@remix-run/cloudflare": "^1.14.3"
   },
   "dependencies": {
     "camelize-ts": "2.3.0",
