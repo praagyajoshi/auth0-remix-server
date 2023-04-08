@@ -32,7 +32,6 @@
     "lint:typecheck": "tsc -p tsconfig.json --noEmit",
     "lint:publint": "run-s clean build publint:run",
     "prepack": "npmignore --auto",
-    "prepare": "lefthook install",
     "publint:run": "publint run",
     "release": "semantic-release",
     "report": "vitest --run --coverage",

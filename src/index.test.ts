@@ -1,11 +1,11 @@
 /* eslint-disable max-nested-callbacks */
-import { redirect } from '@remix-run/node';
+import { redirect } from '@remix-run/cloudflare';
 import * as jose from 'jose';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { getCredentials, saveUserToSession } from './lib/session.js';
 import { Auth0RemixServer, Token } from './index.js';
 import type { Auth0RemixOptions } from './Auth0RemixTypes.js';
-import type { AppLoadContext } from '@remix-run/node';
+import type { AppLoadContext } from '@remix-run/cloudflare';
 
 vi.mock('@remix-run/node');
 vi.mock('./lib/session');
